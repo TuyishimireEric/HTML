@@ -1,4 +1,7 @@
-This is the Portfolio-Mobile-Version project
-Built With HTML, and CSS
+# EricTuyishimre_Portfolio_Mobile_Version
+>I used the HTML and CSS to design this portfolio.
 
-I this project I applied flexbox and used grid layout to position elements
+## Built With
+-HTML,CSS
+-No Frameworks
+-Visual Studio
