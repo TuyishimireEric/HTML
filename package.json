@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TuyishimireEric/Portfolio-mobile-version-2/issues"
   },
-  "homepage": "https://github.com/TuyishimireEric/Portfolio-mobile-version-2#readme"
+  "homepage": "https://github.com/TuyishimireEric/Portfolio-mobile-version-2#readme",
+  "devDependencies": {
+    "hint": "^6.2.0"
+  }
 }
