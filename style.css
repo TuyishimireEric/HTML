@@ -253,7 +253,7 @@ a {
 
 .project {
   font-family: Arial, Helvetica, sans-serif;
-  color: #486493;
+  color: #6070ff;
   background: #fff;
   font-weight: 400;
   font-size: 16px;
@@ -345,7 +345,9 @@ a {
   background: #6070ff;
   border-top-left-radius: 50px;
   background-image: url("image/contact.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
   height: fit-content;
   width: 320px;
   padding: 24px;
