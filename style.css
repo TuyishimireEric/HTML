@@ -361,6 +361,19 @@ li:hover {
   width: auto;
 }
 
+.contact-me p {
+  color: #fff;
+  height: fit-content;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-weight: 100;
+  width: 300px;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  align-self: center;
+}
+
 .skills a p {
   width: 60%;
   justify-content: center;
@@ -499,19 +512,6 @@ li:hover {
   font-weight: 600;
   text-align: center;
   font-size: 40px;
-}
-
-.contact-me p {
-  color: #fff;
-  height: fit-content;
-  margin-top: 4%;
-  margin-bottom: 4%;
-  font-weight: 100;
-  width: 300px;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  align-self: center;
 }
 
 .about .about-content1 h1 {
