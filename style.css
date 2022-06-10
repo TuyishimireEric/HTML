@@ -450,8 +450,12 @@ li:hover {
     height: 100%;
   }
 
-  #photo2, #photo4 {
+  #photo2 {
     order: 2;
+  }
+  
+  #photo4 {
+    order: 4;
   }
 
   .grid-container .grid-item .grid-item-section {
@@ -710,7 +714,7 @@ li:hover {
     line-height: 24px;
     text-align: center;
     align-self: center;
-  }  
+  }
 
   .contact-me .text-me {
     display: flex;
@@ -744,7 +748,7 @@ li:hover {
     align-self: center;
   }
 
-  .contact-me .text-me button:hover{
+  .contact-me .text-me button:hover {
     background: #6070ff;
     color: #fff;
     transform: translate(0, -1px);
