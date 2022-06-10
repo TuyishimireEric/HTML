@@ -119,6 +119,11 @@ body {
   list-style-type: none;
 }
 
+.skills a img {
+  padding: 2%;
+  width: auto;
+}
+
 .social-1 li a img:hover {
   transform: scale(1.2);
   transition: 0.5s;
@@ -359,11 +364,6 @@ li:hover {
   gap: 2%;
   height: 65px;
   margin-right: 12px;
-}
-
-.skills a img {
-  padding: 2%;
-  width: auto;
 }
 
 .contact-me p {
