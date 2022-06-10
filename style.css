@@ -674,7 +674,7 @@ li:hover {
   font-weight: 400;
   font-size: 16px;
   width: fit-content;
-  padding: 15px;
+  padding: 14px;
   border-radius: 12px;
   border-color: #6070ff;
 }
@@ -762,7 +762,7 @@ li:hover {
     padding: 8px;
     width: 400px;
     height: 160px;
-    border-radius: 4px;
+    border-radius: 3px;
     border-style: none;
   }
 }
