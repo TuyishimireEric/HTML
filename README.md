@@ -1,6 +1,6 @@
 # My projects and about section 
 
-> This is my portfolio website and it is a mobile version. 
+> This is my portfolio website. 
 > It contain my description, projects, skills and framework and my contacts.
 ## Built With
 
@@ -9,7 +9,7 @@
 
 ## Project link
 
-https://github.com/TuyishimireEric/Portfolio-mobile-version-2
+https://tuyishimireeric.github.io/
 
 
 ## Getting Started
