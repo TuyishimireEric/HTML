@@ -418,8 +418,6 @@ li:hover {
 }
 
 .project:hover {
-  background: #6070ff;
-  color: #fff;
   transform: translate(0, -1px);
   transition: 0.5s;
   cursor: pointer;
@@ -529,14 +527,14 @@ li:hover {
   align-content: center;
 }
 
-.contact-me h1 {
+.contact-me h2 {
   color: #fff;
   font-weight: 600;
   text-align: center;
   font-size: 40px;
 }
 
-.about .about-content1 h1 {
+.about .about-content1 h2 {
   height: fit-content;
   font-weight: 800;
   font-size: 38px;

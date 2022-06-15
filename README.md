@@ -9,7 +9,7 @@
 
 ## Project link
 
-https://tuyishimireeric.github.io/
+[Project Link](https://tuyishimireeric.github.io/)
 
 
 ## Getting Started
