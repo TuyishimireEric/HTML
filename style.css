@@ -102,10 +102,58 @@ nav ul {
   margin-top: 40px;
 }
 
+.menu-list.active ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: x-large;
+  text-align: left;
+}
 
 .grid-item-section .category li a {
   color: #6070ff;
   text-decoration: none;
+}
+
+li:hover {
+  transform: translate(0, -1px);
+  text-decoration: underline;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.grid-item-section .sub-title {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 16px;
+  width: 100%;
+  gap: 1%;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 4%;
+}
+
+.grid-item-section .sub-title li + li::before {
+  content: url("image/Counter.png");
+  margin: 8px;
+}
+
+.grid-item-section .sub-title li {
+  color: #486493;
+  background: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.grid-item-section .category li {
+  text-decoration: none;
+  background: #e6e7f1;
+  color: #6070ff;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 4px 9px;
+  justify-content: center;
+  align-content: center;
 }
 
 .grid-item-section .category li:hover {
@@ -117,13 +165,6 @@ nav ul {
 
 .grid-item-section .category li a:hover {
   color: #fff;
-}
-
-.menu-list.active ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: x-large;
-  text-align: left;
 }
 
 .navigation {
@@ -310,13 +351,6 @@ nav ul {
   }
 }
 
-li:hover {
-  transform: translate(0, -1px);
-  text-decoration: underline;
-  transition: 1s;
-  cursor: pointer;
-}
-
 .grid-container {
   display: grid;
   width: 100%;
@@ -391,29 +425,6 @@ li:hover {
   margin-bottom: 3%;
 }
 
-.grid-item-section .sub-title {
-  display: flex;
-  flex-wrap: nowrap;
-  height: 16px;
-  width: 100%;
-  gap: 1%;
-  font-weight: 400;
-  font-size: 12px;
-  margin-bottom: 4%;
-}
-
-.grid-item-section .sub-title li + li::before {
-  content: url("image/Counter.png");
-  margin: 8px;
-}
-
-.grid-item-section .sub-title li {
-  color: #486493;
-  background: #fff;
-  font-weight: 700;
-  font-size: 14px;
-}
-
 .grid-item-section p {
   font-size: 16px;
   width: 80%;
@@ -428,18 +439,6 @@ li:hover {
   display: flex;
   gap: 8px;
   margin-bottom: 6%;
-}
-
-.grid-item-section .category li {
-  text-decoration: none;
-  background: #e6e7f1;
-  color: #6070ff;
-  border-radius: 7px;
-  font-weight: 400;
-  font-size: 13px;
-  padding: 4px 9px;
-  justify-content: center;
-  align-content: center;
 }
 
 .contact-me p {
