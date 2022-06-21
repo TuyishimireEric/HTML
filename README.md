@@ -43,6 +43,12 @@ To get this project in your local machine, follow these steps:
 - LinkedIn: [@TuyishimireEric](https://www.linkedin.com/in/Tuyishimire-Eric-32426b21a/)
 
 
+👤 **Author2**
+
+- GitHub: [@eaesmat](https://github.com/eaesmat)
+- LinkedIn: [@eaesmat](https://www.linkedin.com/in/esmatullah-ahmadzai-56bb9423b/)
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
