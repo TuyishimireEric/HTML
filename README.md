@@ -1,7 +1,10 @@
 # My projects and about section 
 
-> This is my portfolio website. 
-> It contain my description, projects, skills and framework and my contacts.
+> This is a collaborative personal portfolio website.
+ 
+> In this project, I have collaborated with my coding partner  @eaesmat who helped me a lot in various modification and Linter configuration. 
+> This project contains personal description, projects, skills and contacts.
+
 ## Built With
 
 - HTML 
@@ -34,10 +37,16 @@ To get this project in your local machine, follow these steps:
 
 ## Authors
 
-👤 **Author1**
+👤 **Tuyishimire Eric**
 
 - GitHub: [@TuyishimireEric](https://github.com/TuyishimireEric)
 - LinkedIn: [@TuyishimireEric](https://www.linkedin.com/in/Tuyishimire-Eric-32426b21a/)
+
+
+👤 **Esmatullah Ahmadzai**
+
+- GitHub: [@eaesmat](https://github.com/eaesmat)
+- LinkedIn: [@eaesmat](https://www.linkedin.com/in/esmatullah-ahmadzai-56bb9423b/)
 
 
 ## 🤝 Contributing

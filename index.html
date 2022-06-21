@@ -10,23 +10,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;
     0,600;0,700;1,200;1,300;1,400;1,800;1,900&display=swap" rel="stylesheet">
+   
 </head>
     <body>
-        <div class="top-container">
+        <div class="top-container" id="head">
             <header class="header">
                 <div class="logo"><a href="index.html" class="logo">My Logo</a></div>
-                <div class="nav">
-                    <nav class="menu-list">
-                        <ul>
-                            <li><a href="index.html" class="nav">Portfolio</a></li>
-                            <li><a href="index.html" class="nav">About</a></li>
-                            <li><a href="index.html" class="nav">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="menu">
-                        <a href="index.html" class="nav"><img src="image/Enabled.png" alt="menu"/></a>
-                    </nav>
+                <nav class="menu-list">
+                    <ul onclick = "hideMenu()">
+                        <li><a href="#head" class="nav">Portfolio</a></li>
+                        <li><a href="#about" class="nav">About</a></li>
+                        <li><a href="#contact" class="nav">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="navigation"  onclick = "showMenu()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
+             
             </header>
             <section class="bg">
                 <h1>I’m Tuyishimire Eric Glad to see you!</h1>
@@ -127,7 +129,7 @@
                 </section>
             </div>
         </div>
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-content1">
                 <h2>About Myself</h2>
                 <p>
@@ -168,7 +170,7 @@
                 </ul>
             </div>
         </section>
-        <section class="contact-me">
+        <section class="contact-me" id="contact">
             <h2>Contact me</h2>
             <p>
                 If you have an application you are interested in developing, 
@@ -181,5 +183,6 @@
                 <button type="submit" class="project">Get in touch</button>
             </form>       
         </section>
+        <script  src="./JS/javaScript.js" ></script>
     </body>
 </html>

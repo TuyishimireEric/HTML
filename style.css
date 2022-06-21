@@ -2,6 +2,8 @@
   margin: 1px;
   padding: 1px;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  transition: all 0.5s ease-in-out;
 }
 
 body {
@@ -24,8 +26,12 @@ body {
 .header {
   display: flex;
   height: 50px;
+  padding: 12px;
+  padding-left: 2%;
+  padding-right: 4%;
   width: 100%;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -33,37 +39,166 @@ body {
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
-  margin: 3%;
-  margin-top: 2.5%;
-  width: 76%;
-  height: 50px;
   cursor: pointer;
-  float: left;
-  transition: 0.7s;
-}
-
-.logo:hover {
-  font-size: 19px;
-  transform: translate(0, -1px);
-}
-
-.nav {
-  flex: 1;
-  text-align: right;
-  margin-right: 12px;
+  margin-left: 12px;
 }
 
 .menu-list {
+  margin-left: -200%;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul {
   display: none;
 }
 
-.menu {
-  cursor: pointer;
-  transition: ease-in;
+.skills a {
+  text-decoration: none;
 }
 
-.menu:hover {
+.skills .extra {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.extra a {
+  background: #e5e5e5;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  gap: 2%;
+  height: 65px;
+  margin-right: 12px;
+}
+
+.menu-list.active {
+  scale: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: -0.1px;
+  top: -0.1px;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  background: rgba(96, 112, 255, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+.menu-list.active ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 4%;
+  margin-top: 80px;
+}
+
+.grid-item-section .category li a {
+  color: #6070ff;
+  text-decoration: none;
+}
+
+.menu-list.active ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: left;
+}
+
+li:hover {
   transform: translate(0, -1px);
+  text-decoration: underline;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.grid-item-section .sub-title {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 16px;
+  width: 100%;
+  gap: 1%;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 4%;
+}
+
+.grid-item-section .sub-title li + li::before {
+  content: url("image/Counter.png");
+  margin: 8px;
+}
+
+.grid-item-section .sub-title li {
+  color: #486493;
+  background: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.grid-item-section .category li {
+  text-decoration: none;
+  background: #e6e7f1;
+  color: #6070ff;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 4px 9px;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid-item-section .category li:hover {
+  background: #6070ff;
+  transform: translate(0, -1px);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.grid-item-section .category li a:hover {
+  color: #fff;
+}
+
+.navigation {
+  display: block;
+}
+
+.bar {
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #6070ff;
+  cursor: pointer;
+}
+
+.navigation.active .bar {
+  background-color: #fff;
+}
+
+.navigation.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.navigation.active .bar:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+
+.navigation.active .bar:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
 }
 
 .bg {
@@ -140,10 +275,14 @@ body {
     border-bottom-left-radius: 100px;
   }
 
-  .menu {
+  .navigation {
     display: none;
     cursor: pointer;
     transition: ease-in;
+  }
+
+  nav ul {
+    display: flex;
   }
 
   .bg {
@@ -164,9 +303,18 @@ body {
 
   .menu-list {
     display: block;
+    margin-right: 4%;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
   }
 
-  .nav .menu-list ul li {
+  .menu-list ul {
+    gap: 12px;
+  }
+
+  .menu-list ul li {
     list-style: none;
     display: inline-block;
   }
@@ -204,18 +352,6 @@ body {
     gap: 4px;
     list-style-type: none;
   }
-}
-
-ul {
-  display: flex;
-  list-style-type: none;
-}
-
-li:hover {
-  transform: translate(0, -1px);
-  text-decoration: underline;
-  transition: 1s;
-  cursor: pointer;
 }
 
 .grid-container {
@@ -292,29 +428,6 @@ li:hover {
   margin-bottom: 3%;
 }
 
-.grid-item-section .sub-title {
-  display: flex;
-  flex-wrap: nowrap;
-  height: 16px;
-  width: 100%;
-  gap: 1%;
-  font-weight: 400;
-  font-size: 12px;
-  margin-bottom: 4%;
-}
-
-.grid-item-section .sub-title li + li::before {
-  content: url("image/Counter.png");
-  margin: 8px;
-}
-
-.grid-item-section .sub-title li {
-  color: #486493;
-  background: #fff;
-  font-weight: 700;
-  font-size: 14px;
-}
-
 .grid-item-section p {
   font-size: 16px;
   width: 80%;
@@ -329,41 +442,6 @@ li:hover {
   display: flex;
   gap: 8px;
   margin-bottom: 6%;
-}
-
-.grid-item-section .category li {
-  text-decoration: none;
-  background: #e6e7f1;
-  color: #6070ff;
-  border-radius: 7px;
-  font-weight: 400;
-  font-size: 13px;
-  padding: 4px 9px;
-  justify-content: center;
-  align-content: center;
-}
-
-.skills a {
-  text-decoration: none;
-}
-
-.skills .extra {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
-
-.extra a {
-  background: #e5e5e5;
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
-  gap: 2%;
-  height: 65px;
-  margin-right: 12px;
 }
 
 .contact-me p {
@@ -386,22 +464,6 @@ li:hover {
   text-decoration: none;
   align-content: center;
   padding-top: 20px;
-}
-
-.grid-item-section .category li a {
-  color: #6070ff;
-  text-decoration: none;
-}
-
-.grid-item-section .category li:hover {
-  background: #6070ff;
-  transform: translate(0, -1px);
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-.grid-item-section .category li a:hover {
-  color: #fff;
 }
 
 .project {
@@ -703,7 +765,7 @@ li:hover {
     background-repeat: no-repeat;
     background-position: right;
     padding: 24px;
-    margin-top: -30px;
+    margin-top: -90px;
     padding-top: 10%;
     padding-bottom: 10%;
     gap: 10%;
