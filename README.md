@@ -1,7 +1,10 @@
 # My projects and about section 
 
-> This is my portfolio website. 
-> It contain my description, projects, skills and framework and my contacts.
+> This is a collaborative personal portfolio website.
+ 
+> In this project, I have collaborated with my coding partner  @eaesmat who helped me a lot in various modification and Linter configuration. 
+> This project contains personal description, projects, skills and contacts.
+
 ## Built With
 
 - HTML 
