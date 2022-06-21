@@ -37,13 +37,13 @@ To get this project in your local machine, follow these steps:
 
 ## Authors
 
-👤 **Author1**
+👤 **Tuyishimire Eric**
 
 - GitHub: [@TuyishimireEric](https://github.com/TuyishimireEric)
 - LinkedIn: [@TuyishimireEric](https://www.linkedin.com/in/Tuyishimire-Eric-32426b21a/)
 
 
-👤 **Author2**
+👤 **Esmatullah Ahmadzai**
 
 - GitHub: [@eaesmat](https://github.com/eaesmat)
 - LinkedIn: [@eaesmat](https://www.linkedin.com/in/esmatullah-ahmadzai-56bb9423b/)
