@@ -91,7 +91,8 @@ nav ul {
   width: 100%;
   height: 100%;
   transition: all 0.3s ease-in-out;
-  background: rgba(47, 47, 197, 0.8);
+  background: #6070FF;
+  mix-blend-mode: multiply;
 }
 
 .menu-list.active ul {
@@ -99,7 +100,7 @@ nav ul {
   flex-direction: column;
   gap: 10px;
   margin: 4%;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .grid-item-section .category li a {
@@ -110,7 +111,9 @@ nav ul {
 .menu-list.active ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: x-large;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
   text-align: left;
 }
 
