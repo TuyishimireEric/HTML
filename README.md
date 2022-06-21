@@ -6,6 +6,7 @@
 
 - HTML 
 - CSS
+- javaScript
 
 ## Project link
 
