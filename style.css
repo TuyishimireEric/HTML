@@ -49,8 +49,36 @@ body {
   background-color: #fff;
 }
 
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
 nav ul {
   display: none;
+}
+
+.skills a {
+  text-decoration: none;
+}
+
+.skills .extra {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.extra a {
+  background: #e5e5e5;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  gap: 2%;
+  height: 65px;
+  margin-right: 12px;
 }
 
 .menu-list.active {
@@ -72,6 +100,23 @@ nav ul {
   gap: 10px;
   margin: 4%;
   margin-top: 40px;
+}
+
+
+.grid-item-section .category li a {
+  color: #6070ff;
+  text-decoration: none;
+}
+
+.grid-item-section .category li:hover {
+  background: #6070ff;
+  transform: translate(0, -1px);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.grid-item-section .category li a:hover {
+  color: #fff;
 }
 
 .menu-list.active ul li a {
@@ -96,7 +141,7 @@ nav ul {
   cursor: pointer;
 }
 
-.navigation.active .bar{
+.navigation.active .bar {
   background-color: #fff;
 }
 
@@ -265,11 +310,6 @@ nav ul {
   }
 }
 
-ul {
-  display: flex;
-  list-style-type: none;
-}
-
 li:hover {
   transform: translate(0, -1px);
   text-decoration: underline;
@@ -402,29 +442,6 @@ li:hover {
   align-content: center;
 }
 
-.skills a {
-  text-decoration: none;
-}
-
-.skills .extra {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
-
-.extra a {
-  background: #e5e5e5;
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
-  gap: 2%;
-  height: 65px;
-  margin-right: 12px;
-}
-
 .contact-me p {
   color: #fff;
   height: fit-content;
@@ -445,22 +462,6 @@ li:hover {
   text-decoration: none;
   align-content: center;
   padding-top: 20px;
-}
-
-.grid-item-section .category li a {
-  color: #6070ff;
-  text-decoration: none;
-}
-
-.grid-item-section .category li:hover {
-  background: #6070ff;
-  transform: translate(0, -1px);
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-.grid-item-section .category li a:hover {
-  color: #fff;
 }
 
 .project {
