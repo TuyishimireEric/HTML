@@ -1092,3 +1092,5 @@ li:hover {
     pointer-events: all;
   }
 }
+
+/* stylelint-enable no-descending-specificity */
