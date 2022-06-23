@@ -10,6 +10,13 @@ function hideMenu() {
   document.querySelector('.menu-list.active').classList.remove('active');
 }
 
+overlay.addEventListener('click', () => {
+  const modals = document.querySelectorAll('.modal.active');
+  modals.forEach((modal) => {
+    closeModal(modal);
+  });
+});
+
 function openModal(modal) {
   if (modal == null) return;
   modal.classList.add('active');
@@ -21,13 +28,6 @@ function closeModal(modal) {
   modal.classList.remove('active');
   overlay.classList.remove('active');
 }
-
-overlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.modal.active');
-  modals.forEach((modal) => {
-    closeModal(modal);
-  });
-});
 
 const openModalButtons = document.querySelectorAll('[data-modal-target]');
 const closeModalButtons = document.querySelectorAll('[data-close-button]');
