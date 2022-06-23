@@ -74,7 +74,7 @@ modal0.insertAdjacentHTML(
         </div>
     </section> 
 
-`
+`,
 );
 
 const modal1 = document.querySelector('#');
@@ -108,7 +108,7 @@ modal1.insertAdjacentHTML(
         </div>
     </section> 
 
-`
+`,
 );
 
 const modal2 = document.querySelector('#');
@@ -142,7 +142,7 @@ modal2.insertAdjacentHTML(
         </div>
     </section> 
 
-`
+`,
 );
 
 const modal3 = document.querySelector('#');
@@ -176,5 +176,5 @@ modal3.insertAdjacentHTML(
         </div>
     </section> 
 
-`
+`,
 );
