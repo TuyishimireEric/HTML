@@ -1,7 +1,7 @@
 * {
   margin: 1px;
   padding: 1px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   transition: all 0.5s ease-in-out;
 }
@@ -135,7 +135,7 @@ li:hover {
   margin-bottom: 4%;
 }
 
-.grid-item-section .sub-title li + li::before {
+.grid-item-section .sub-title li+li::before {
   content: url("image/Counter.png");
   margin: 8px;
 }
@@ -892,7 +892,7 @@ li:hover {
   margin-bottom: 4%;
 }
 
-.modal .sub-title li + li::before {
+.modal .sub-title li+li::before {
   content: url("image/Counter.png");
   margin: 8px;
 }
@@ -987,7 +987,7 @@ li:hover {
 
 .extra-buttons .project img {
   width: 14px;
-  height: 14px
+  height: 14px;
 }
 
 #overlay {
@@ -1007,7 +1007,6 @@ li:hover {
 }
 
 @media only screen and (min-width: 768px) {
-    
   .modal {
     width: 50%;
   }
