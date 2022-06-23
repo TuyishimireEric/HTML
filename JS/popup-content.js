@@ -1,51 +1,51 @@
 const allContent = [
-   {
-    name: 'Tonic',
-    work: ['CANOPY', 'Back End Dev', '2015'],
-    content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    {
+        name: 'Tonic',
+        work: ['CANOPY', 'Back End Dev', '2015'],
+        content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     At eos qui possimus nisi ducimus delectus enim beatae natus 
     ab? Natus minima minus similique nisi eos, deleniti laudantium 
     nihil impedit assumenda! ducimus delectus enim beatae natus 
     ab? Natus minima minus`,
-    languages: ['HTML', 'css', 'javaScript'],
+        languages: ['HTML', 'css', 'javaScript'],
 
-   },
-   {
-    name: 'Multi-Post Stories',
-    work: ['CANOPY', 'Back End Dev', '2015'],
-    content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    },
+    {
+        name: 'Multi-Post Stories',
+        work: ['CANOPY', 'Back End Dev', '2015'],
+        content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     At eos qui possimus nisi ducimus delectus enim beatae natus 
     ab? Natus minima minus similique nisi eos, deleniti laudantium 
     nihil impedit assumenda! ducimus delectus enim beatae natus 
     ab? Natus minima minus`,
-    languages: ['HTML', 'css', 'javaScript'],
-   },
-   {
-    name: 'Tonic',
-    work: ['CANOPY', 'Back End Dev', '2015'],
-    content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        languages: ['HTML', 'css', 'javaScript'],
+    },
+    {
+        name: 'Tonic',
+        work: ['CANOPY', 'Back End Dev', '2015'],
+        content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     At eos qui possimus nisi ducimus delectus enim beatae natus 
     ab? Natus minima minus similique nisi eos, deleniti laudantium 
     nihil impedit assumenda! ducimus delectus enim beatae natus 
     ab? Natus minima minus`,
-    languages: ['HTML', 'css', 'javaScript'],
+        languages: ['HTML', 'css', 'javaScript'],
 
-   },
-   {
-    name: 'Multi-Post Stories',
-    work: ['CANOPY', 'Back End Dev', '2015'],
-    content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    },
+    {
+        name: 'Multi-Post Stories',
+        work: ['CANOPY', 'Back End Dev', '2015'],
+        content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     At eos qui possimus nisi ducimus delectus enim beatae natus 
     ab? Natus minima minus similique nisi eos, deleniti laudantium 
     nihil impedit assumenda! ducimus delectus enim beatae natus 
     ab? Natus minima minus`,
-    languages: ['HTML', 'css', 'javaScript'],
-   },
-    
+        languages: ['HTML', 'css', 'javaScript'],
+    },
+
 ];
 
 const modal0 = document.querySelector(".modal");
-  
+
 modal0.insertAdjacentHTML("afterbegin", `
     <div class="modal-header">
         <h2 class="title">${allContent[0].name}</h2>
@@ -74,9 +74,9 @@ modal0.insertAdjacentHTML("afterbegin", `
     </section> 
 
 `);
-  
+
 const modal1 = document.querySelector("#");
-  
+
 modal1.insertAdjacentHTML("afterbegin", `
     <div class="modal-header">
         <h2 class="title">${allContent[0].name}</h2>
@@ -107,7 +107,7 @@ modal1.insertAdjacentHTML("afterbegin", `
 `);
 
 const modal2 = document.querySelector("#");
-  
+
 modal2.insertAdjacentHTML("afterbegin", `
     <div class="modal-header">
         <h2 class="title">${allContent[0].name}</h2>
@@ -138,7 +138,7 @@ modal2.insertAdjacentHTML("afterbegin", `
 `);
 
 const modal3 = document.querySelector("#");
-  
+
 modal3.insertAdjacentHTML("afterbegin", `
     <div class="modal-header">
         <h2 class="title">${allContent[0].name}</h2>
