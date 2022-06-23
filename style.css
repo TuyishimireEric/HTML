@@ -899,7 +899,10 @@ li:hover {
   }
 }
 
-.modal {
+.modal0, 
+.modal1, 
+.modal2,
+.modal3 {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -914,7 +917,8 @@ li:hover {
   overflow: scroll;
 }
 
-.modal.active {
+.modal0.active,
+.modal1.active {
   transform: translate(-50%, -50%) scale(1);
 }
 
@@ -934,7 +938,8 @@ li:hover {
   font-weight: lighter;
 }
 
-.modal .title {
+.modal0 .title,
+.modal1 .title {
   justify-content: center;
   height: fit-content;
   font-weight: 700;
@@ -944,7 +949,7 @@ li:hover {
   margin: 1px;
 }
 
-.modal .sub-title {
+.sub-title {
   display: flex;
   flex-wrap: nowrap;
   height: 16px;
@@ -955,12 +960,12 @@ li:hover {
   margin-bottom: 4%;
 }
 
-.modal .sub-title li + li::before {
+.sub-title li + li::before {
   content: url("image/Counter.png");
   margin: 8px;
 }
 
-.modal .sub-title li {
+.sub-title li {
   color: #486493;
   background: #fff;
   font-weight: 700;
@@ -973,7 +978,13 @@ li:hover {
   height: 221px;
 }
 
-#photoP {
+#photo11 {
+  background-image: url("image/Portfolio-22.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#photo00 {
   background-image: url("image/m-popup.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -1010,11 +1021,12 @@ li:hover {
 }
 
 @media only screen and (min-width: 768px) {
-  .modal {
-    width: 50%;
+  .modal0,
+  .modal1 {
+    width: 47%;
   }
 
-  .modal .title {
+  .title {
     justify-content: center;
     height: fit-content;
     font-weight: 700;
@@ -1023,7 +1035,7 @@ li:hover {
     color: #172b4d;
   }
 
-  .modal .sub-title {
+  .sub-title {
     margin-top: -1%;
     margin-bottom: 2%;
   }
@@ -1034,8 +1046,14 @@ li:hover {
     height: 60%;
   }
 
-  #photoP {
+  #photo11 {
     background-image: url("image/d-popup.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #photo00 {
+    background-image: url("image/Portfolio111.png");
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -1070,6 +1088,7 @@ li:hover {
   .extra-buttons button {
     width: 45%;
     height: fit-content;
+    border-style: solid;
     border-radius: 6px;
     display: flex;
     align-content: center;
