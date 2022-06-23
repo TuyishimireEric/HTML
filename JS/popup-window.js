@@ -119,19 +119,13 @@ closeModalButtons.forEach((button) => {
 });
 
 overlay.addEventListener('click', () => {
-   // eslint-disable-next-line Parsing-error
-  const allModals1 = document.querySelectorAll('.modal0.active'),
-  // eslint-disable-next-line Parsing-error
-  allModals1.forEach('modal0' => () {
+    document.querySelectorAll('.modal0.active').forEach('modal0' => () {
     closeModal(modal0);
   });
 });
 
 overlay.addEventListener('click', () => {
-  // eslint-disable-next-line Parsing-error
-  const allModals2 = document.querySelectorAll('.modal1.active');
-  // eslint-disable-next-line Parsing-error
-  allModals2.forEach('modal1' => () {
+ document.querySelectorAll('.modal1.active').forEach('modal1' => () {
     closeModal(modal1);
   });
 });
