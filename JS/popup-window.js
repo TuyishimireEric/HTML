@@ -126,8 +126,8 @@ overlay.addEventListener('click', () => {
 });
 
 overlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.modal1.active');
-  modals.forEach('modal1' => () {
+  const modals2 = document.querySelectorAll('.modal1.active');
+  modals2.forEach('modal1' => () {
     closeModal(modal1);
   });
 });
