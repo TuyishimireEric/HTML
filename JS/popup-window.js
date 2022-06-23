@@ -70,7 +70,7 @@ function openModal2(modal2) {
   overlay.classList.add('active');
 }
 
-function closeModal(modal2) {
+function closeModal2(modal2) {
   if (modal2 == null) return;
   modal2.classList.remove('active');
   overlay.classList.remove('active');
@@ -86,7 +86,7 @@ openModalButtons.forEach((button) => {
 closeModalButtons.forEach((button) => {
   button.addEventListener('click', () => {
     const modal2 = button.closest('.modal2');
-    closeModal(modal2);
+    closeModal2(modal2);
   });
 });
 
@@ -98,7 +98,7 @@ function openModal3(modal3) {
   overlay.classList.add('active');
 }
 
-function closeModal(modal3) {
+function closeModal3(modal3) {
   if (modal3 == null) return;
   modal3.classList.remove('active');
   overlay.classList.remove('active');
@@ -114,7 +114,7 @@ openModalButtons.forEach((button) => {
 closeModalButtons.forEach((button) => {
   button.addEventListener('click', () => {
     const modal3 = button.closest('.modal3');
-    closeModal(modal3);
+    closeModal3(modal3);
   });
 });
 
