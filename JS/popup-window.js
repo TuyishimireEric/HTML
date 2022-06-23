@@ -42,7 +42,7 @@ closeModalButtons.forEach((button) => {
 
 /* modal1 */
 
-function closeModal(modal1) {
+function closeModal1(modal1) { // eslint-disable-line
   if (modal1 == null) return;
   modal1.classList.remove('active');
   overlay.classList.remove('active');
@@ -58,63 +58,7 @@ openModalButtons.forEach((button) => {
 closeModalButtons.forEach((button) => {
   button.addEventListener('click', () => {
     const modal1 = button.closest('.modal1');
-    closeModal(modal1);
-  });
-});
-
-/* modal2 */
-
-function openModal(modal2) {
-  if (modal2 == null) return;
-  modal2.classList.add('active');
-  overlay.classList.add('active');
-}
-
-function closeModal(modal2) {
-  if (modal2 == null) return;
-  modal2.classList.remove('active');
-  overlay.classList.remove('active');
-}
-
-openModalButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    const modal2 = document.querySelector(button.dataset.modalTarget);
-    openModal(modal2);
-  });
-});
-
-closeModalButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    const modal2 = button.closest('.modal2');
-    closeModal(modal2);
-  });
-});
-
-/* modal3 */
-
-function openModal(modal3) {
-  if (modal3 == null) return;
-  modal3.classList.add('active');
-  overlay.classList.add('active');
-}
-
-function closeModal(modal3) {
-  if (modal3 == null) return;
-  modal3.classList.remove('active');
-  overlay.classList.remove('active');
-}
-
-openModalButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    const modal3 = document.querySelector(button.dataset.modalTarget);
-    openModal(modal3);
-  });
-});
-
-closeModalButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    const modal3 = button.closest('.modal3');
-    closeModal(modal3);
+    closeModal1(modal1);
   });
 });
 
