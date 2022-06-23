@@ -42,12 +42,6 @@ closeModalButtons.forEach((button) => {
 
 /* modal1 */
 
-function openModal(modal1) {
-  if (modal1 == null) return;
-  modal1.classList.add('active');
-  overlay.classList.add('active');
-}
-
 function closeModal(modal1) {
   if (modal1 == null) return;
   modal1.classList.remove('active');
@@ -125,15 +119,15 @@ closeModalButtons.forEach((button) => {
 });
 
 overlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.modal0.active')
-  modals.forEach(modal0 => {
-    closeModal(modal0) 
+  const modals = document.querySelectorAll('.modal0.active');
+  modals.forEach((modal0) => {
+    closeModal(modal0);
   });
 });
 
 overlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.modal1.active')
-  modals.forEach(modal1 => {
-    closeModal(modal1) 
+  const modals = document.querySelectorAll('.modal1.active');
+  modals.forEach((modal1) => {
+    closeModal(modal1);
   });
 });
