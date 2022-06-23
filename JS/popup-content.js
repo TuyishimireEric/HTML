@@ -68,8 +68,8 @@ modal0.insertAdjacentHTML(
                 <li><a href='index.html'>${allContent[0].languages[2]}</a></li>
             </ul>
             <div class='extra-buttons'>  
-            <div class='project'><p>See Live</p><img src='image/sm1.png'></div>
-            <div class='project'><p>See Source</p><img src='image/sm2.png'></div>
+            <button class='project'><p>See Live</p><img src='image/sm1.png'></butt>
+            <button class='project'><p>See Source</p><img src='image/sm2.png'></butt>
             </div>
         </div>
     </section> 
