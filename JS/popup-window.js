@@ -10,12 +10,9 @@ function hideMenu() {
   document.querySelector('.menu-list.active').classList.remove('active');
 }
 
-overlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.modal.active');
-  modals.forEach((modal) => {
-    closeModal(modal);
-  });
-});
+const openModalButtons = document.querySelectorAll('[data-modal-target]');
+const closeModalButtons = document.querySelectorAll('[data-close-button]');
+const overlay = document.getElementById('overlay');
 
 function openModal(modal) {
   if (modal == null) return;
@@ -28,10 +25,6 @@ function closeModal(modal) {
   modal.classList.remove('active');
   overlay.classList.remove('active');
 }
-
-const openModalButtons = document.querySelectorAll('[data-modal-target]');
-const closeModalButtons = document.querySelectorAll('[data-close-button]');
-const overlay = document.getElementById('overlay');
 
 openModalButtons.forEach((button) => {
   button.addEventListener('click', () => {
