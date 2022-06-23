@@ -1,3 +1,4 @@
+/*eslint linebreak-style: ["error", "windows"]*/
 const allContent = [
     {
         name: 'Tonic',
