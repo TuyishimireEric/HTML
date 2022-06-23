@@ -49,7 +49,7 @@
         </div>
         <div class="grid-container">
             <div class="grid-item">
-                <div class="grid-item-photo" id="photo1">
+                <div class="grid-item-photo" id="photo1" data-modal-target="#modal">
                 </div>
                 <div class="grid-item-section">
                     <h2 class="title">Tonic</h2>
@@ -65,11 +65,11 @@
                         <li><a href="index.html">css</a></li>
                         <li><a href="index.html">javaScript</a></li>
                     </ul>
-                    <button type="submit" class="project">See Project</button>
+                    <button type="button" class="project" data-modal-target="#modal">See Project</button>
                 </div>
             </div>
             <div class="grid-item">
-                <div class="grid-item-photo" id="photo2">
+                <div class="grid-item-photo" id="photo2" data-modal-target="#modal">
                 </div>
                 <section class="grid-item-section">
                     <h2 class="title">Multi-Post Stories</h2>
@@ -85,11 +85,11 @@
                         <li class="category-list"><a href="index.html">css</a></li>
                         <li class="category-list"><a href="index.html">javaScript</a></li>
                     </ul>
-                    <button type="submit" class="project">See Project</button>
+                    <button type="button" class="project" data-modal-target="#modal">See Project</button>
                 </section>
             </div>
             <div class="grid-item">
-                <div class="grid-item-photo" id="photo3">
+                <div class="grid-item-photo" id="photo3" data-modal-target="#modal">
                 </div>
                 <section class="grid-item-section">
                     <h2 class="title">Tonic</h2>
@@ -105,11 +105,11 @@
                         <li class="category-list"><a href="index.html">css</a></li>
                         <li class="category-list"><a href="index.html">javaScript</a></li>
                     </ul>
-                    <button type="submit" class="project">See Project</button>
+                    <button type="button" class="project" data-modal-target="#modal">See Project</button>
                 </section>
             </div>
             <div class="grid-item">
-                <div class="grid-item-photo" id="photo4">
+                <div class="grid-item-photo" id="photo4" data-modal-target="#modal">
                 </div>
                 <section class="grid-item-section">
                     <h2 class="title">Multi-Post Stories</h2>
@@ -125,10 +125,15 @@
                         <li class="category-list"><a href="index.html">css</a></li>
                         <li class="category-list"><a href="index.html">javaScript</a></li>
                     </ul>
-                    <button type="submit" class="project">See Project</button>
+                    <button type="button" class="project" data-modal-target="#modal">See Project</button>
                 </section>
             </div>
         </div>
+        
+        <div class="modal" id="modal">
+        </div>
+        <div id="overlay"></div>
+        
         <section class="about" id="about">
             <div class="about-content1">
                 <h2>About Myself</h2>
@@ -183,6 +188,7 @@
                 <button type="submit" class="project">Get in touch</button>
             </form>       
         </section>
-        <script  src="./JS/javaScript.js" ></script>
+        <script  src="./JS/popup-content.js" ></script>
+        <script  src="./JS/popup-window.js" ></script>
     </body>
 </html>
