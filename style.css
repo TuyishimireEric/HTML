@@ -135,7 +135,7 @@ li:hover {
   margin-bottom: 4%;
 }
 
-.grid-item-section .sub-title li+li::before {
+.grid-item-section .sub-title li + li::before {
   content: url("image/Counter.png");
   margin: 8px;
 }
@@ -352,6 +352,99 @@ li:hover {
     gap: 4px;
     list-style-type: none;
   }
+}
+
+.modal .sub-title li {
+  color: #486493;
+  background: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.modal-photo {
+  border-radius: 12px;
+  width: 100%;
+  height: 221px;
+}
+
+#photoP {
+  background-image: url("image/m-popup.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+.modal-body p {
+  font-size: 16px;
+  margin-bottom: 3%;
+  line-height: 24px;
+}
+
+.category li {
+  text-decoration: none;
+  background: #e6e7f1;
+  color: #6070ff;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 4px 9px;
+  justify-content: center;
+  align-content: center;
+}
+
+.category li:hover {
+  background: #6070ff;
+  transform: translate(0, -1px);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.category li a {
+  color: #6070ff;
+  text-decoration: none;
+}
+
+.category li a:hover {
+  color: #fff;
+}
+
+.extra-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.extra-buttons div {
+  width: 110px;
+  height: 16px;
+  display: flex;
+  padding-top: 2%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #6070ff;
+  transition: 2ms;
+}
+
+.extra-buttons .project p {
+  text-align: center;
+  color: #6070ff;
+  size: 5px;
+  margin: 0%;
+  justify-content: center;
+}
+
+.extra-buttons .project img {
+  width: 14px;
+  height: 14px;
 }
 
 .grid-container {
@@ -878,7 +971,7 @@ li:hover {
   font-size: 32px;
   width: 70%;
   color: #172b4d;
-  margin: 0px;
+  margin: 1px;
 }
 
 .modal .sub-title {
@@ -892,102 +985,9 @@ li:hover {
   margin-bottom: 4%;
 }
 
-.modal .sub-title li+li::before {
+.modal .sub-title li + li::before {
   content: url("image/Counter.png");
   margin: 8px;
-}
-
-.modal .sub-title li {
-  color: #486493;
-  background: #fff;
-  font-weight: 700;
-  font-size: 14px;
-}
-
-.modal-photo {
-  border-radius: 12px;
-  width: 100%;
-  height: 221px;
-}
-
-#photoP {
-  background-image: url("image/m-popup.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.modal-body {
-  display: flex;
-  flex-direction: column;
-  gap: 2%;
-}
-
-.modal-body p {
-  font-size: 16px;
-  margin-bottom: 3%;
-  line-height: 24px;
-}
-
-.category li {
-  text-decoration: none;
-  background: #e6e7f1;
-  color: #6070ff;
-  border-radius: 7px;
-  font-weight: 400;
-  font-size: 13px;
-  padding: 4px 9px;
-  justify-content: center;
-  align-content: center;
-}
-
-.category li:hover {
-  background: #6070ff;
-  transform: translate(0, -1px);
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-.category li a {
-  color: #6070ff;
-  text-decoration: none;
-}
-
-.category li a:hover {
-  color: #fff;
-}
-
-.extra-buttons {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10%;
-}
-
-.extra-buttons div {
-  width: 110px;
-  height: 16px;
-  display: flex;
-  padding-top: 2%;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: center;
-  border-style: solid;
-  border-radius: 10px;
-  border-width: 1px;
-  border-color: #6070ff;
-  transition: 2ms;
-}
-
-.extra-buttons .project p {
-  text-align: center;
-  text-color: #6070ff;
-  text-size: 5px;
-  margin: 0%;
-  justify-content: center;
-}
-
-.extra-buttons .project img {
-  width: 14px;
-  height: 14px;
 }
 
 #overlay {
