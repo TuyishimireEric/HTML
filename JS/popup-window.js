@@ -120,14 +120,14 @@ closeModalButtons.forEach((button) => {
 
 overlay.addEventListener('click', () => {
   const modals = document.querySelectorAll('.modal0.active');
-  modals.forEach(modal0 => () {
+  modals.forEach('modal0' => () {
     closeModal(modal0);
   });
 });
 
 overlay.addEventListener('click', () => {
   const modals = document.querySelectorAll('.modal1.active');
-  modals.forEach(modal1 => () {
+  modals.forEach('modal1' => () {
     closeModal(modal1);
   });
 });
