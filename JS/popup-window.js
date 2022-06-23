@@ -48,12 +48,6 @@ function openModal(modal1) {
   overlay.classList.add('active');
 }
 
-function closeModal(modal1) {
-  if (modal1 == null) return;
-  modal1.classList.remove('active');
-  overlay.classList.remove('active');
-}
-
 openModalButtons.forEach((button) => {
   button.addEventListener('click', () => {
     const modal1 = document.querySelector(button.dataset.modalTarget);
