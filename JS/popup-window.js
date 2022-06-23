@@ -42,7 +42,7 @@ closeModalButtons.forEach((button) => {
 
 /* modal1 */
 
-function openModal(modal1) {
+function openModal1(modal1) {
   if (modal1 == null) return;
   modal1.classList.add('active');
   overlay.classList.add('active');
@@ -51,7 +51,7 @@ function openModal(modal1) {
 openModalButtons.forEach((button) => {
   button.addEventListener('click', () => {
     const modal1 = document.querySelector(button.dataset.modalTarget);
-    openModal(modal1);
+    openModal1(modal1);
   });
 });
 
@@ -64,7 +64,7 @@ closeModalButtons.forEach((button) => {
 
 /* modal2 */
 
-function openModal(modal2) {
+function openModal2(modal2) {
   if (modal2 == null) return;
   modal2.classList.add('active');
   overlay.classList.add('active');
@@ -79,7 +79,7 @@ function closeModal(modal2) {
 openModalButtons.forEach((button) => {
   button.addEventListener('click', () => {
     const modal2 = document.querySelector(button.dataset.modalTarget);
-    openModal(modal2);
+    openModal2(modal2);
   });
 });
 
@@ -92,7 +92,7 @@ closeModalButtons.forEach((button) => {
 
 /* modal3 */
 
-function openModal(modal3) {
+function openModal3(modal3) {
   if (modal3 == null) return;
   modal3.classList.add('active');
   overlay.classList.add('active');
@@ -107,7 +107,7 @@ function closeModal(modal3) {
 openModalButtons.forEach((button) => {
   button.addEventListener('click', () => {
     const modal3 = document.querySelector(button.dataset.modalTarget);
-    openModal(modal3);
+    openModal3(modal3);
   });
 });
 
