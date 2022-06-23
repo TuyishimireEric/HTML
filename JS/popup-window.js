@@ -119,6 +119,7 @@ closeModalButtons.forEach((button) => {
 });
 
 overlay.addEventListener('click', () => {
+   // eslint-disable-next-line Parsing-error
   const allModals1 = document.querySelectorAll('.modal0.active'),
   allModals1.forEach('modal0' => () {
     closeModal(modal0);
