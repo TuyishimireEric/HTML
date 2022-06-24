@@ -1020,6 +1020,18 @@ li:hover {
   pointer-events: all;
 }
 
+.formPopup {
+  display: none;
+  margin: 0 60px 0 60px;
+  background-color: cornsilk;
+  border: 1px solid #c25100;
+}
+
+.formPopup p {
+  color: #c25100;
+  text-align: center;
+}
+
 @media only screen and (min-width: 768px) {
   .modal0,
   .modal1 {
