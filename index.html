@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tuyishimire Portofolio Website</title>
+    <title>Tuyishimire Eric Portofolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
     <body>
         <div class="top-container" id="head">
             <header class="header">
-                <div class="logo"><a href="index.html" class="logo">My Logo</a></div>
+                <div class="logo"><a href="index.html" class="logo">Logo</a></div>
                 <nav class="menu-list">
                     <ul onclick = "hideMenu()">
                         <li><a href="#head" class="nav">Portfolio</a></li>
@@ -187,14 +187,19 @@
                 If you have an application you are interested in developing, 
                 a feature that you need built or a project that needs coding. 
                 i'd love to help with it.</p>
-            <form action="https://formspree.io/f/{form_id}" methop="post" class="text-me">
-                <input type="text" class="simple" placeholder="User name" maxlength="30" required>
-                <input type="email" class="simple" placeholder="Email" required>
-                <textarea class="text-area" placeholder="comment" required></textarea>
-                <button type="submit" class="project">Get in touch</button>
-            </form>       
+            <form class="text-me" id="#form" method="post" action="https://formspree.io/f/xzboqvlk">
+                <input type="text" class="simple" placeholder="User name" maxlength="30" name="User name" required>
+                <input type="email" class="simple" placeholder="Email" id="e-mail" name="email" required>
+                <textarea class="text-area" placeholder="comment" name="comment" required></textarea>
+                <div class="formPopup">
+                    <p>e-mail must be all in lowercase!</p>
+                </div>
+                <button type="submit" class="project" id="submit">Get in touch</button>
+            </form>
         </section>
         <script  src="./JS/popup-content.js" ></script>
         <script  src="./JS/popup-window.js" ></script>
+        <script  src="./JS/contact-form.js" ></script>
+    </body>
     </body>
 </html>
