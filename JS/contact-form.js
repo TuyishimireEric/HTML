@@ -2,9 +2,9 @@ const emailForm = document.querySelector('#e-mail');
 const popupForm = document.querySelector('.formPopup');
 const submit = document.querySelector('#submit');
 
-emailForm.addEventListener('input', () => {
+submit.addEventListener('click', () => {
   if (/[A-Z]/.test(emailForm.value)) {
-    popupForm.style.display = 'block';
+    popupForm.style.display = 'flex';
   } else {
     popupForm.style.display = 'none';
   }
