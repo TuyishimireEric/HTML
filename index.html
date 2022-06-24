@@ -187,14 +187,19 @@
                 If you have an application you are interested in developing, 
                 a feature that you need built or a project that needs coding. 
                 i'd love to help with it.</p>
-            <form action="https://formspree.io/f/{form_id}" methop="post" class="text-me">
+            <form class="text-me" id="#form" method="post" action="https://formspree.io/f/xgedqoye">
                 <input type="text" class="simple" placeholder="User name" maxlength="30" required>
-                <input type="email" class="simple" placeholder="Email" required>
+                <input type="email" class="simple" placeholder="Email" id="e-mail" required>
                 <textarea class="text-area" placeholder="comment" required></textarea>
-                <button type="submit" class="project">Get in touch</button>
-            </form>       
+                <button type="submit" class="project" id="submit">Get in touch</button>
+             <div class="formPopup">
+               <p>email must be all in lowercase!</p>
+             </div>
+            </form>
         </section>
         <script  src="./JS/popup-content.js" ></script>
         <script  src="./JS/popup-window.js" ></script>
+        <script  src="./JS/contact-form.js" ></script>
+    </body>
     </body>
 </html>
