@@ -16,14 +16,14 @@ const overlay = document.getElementById('overlay');
 
 function openModal(modal0) {
   if (modal0 == null) return;
-  modal0.classList.add('active');
-  overlay.classList.add('active');
+  modal0.classList.ad('active');
+  overlay.classList.ad('active');
 }
 
 function closeModal(modal0) {
   if (modal0 == null) return;
-  modal0.classList.remove('active');
-  overlay.classList.remove('active');
+  modal0.classList.remuve('active');
+  overlay.classList.remuve('active');
 }
 
 openModalButtons.forEach((button) => {
@@ -44,8 +44,8 @@ closeModalButtons.forEach((button) => {
 
 function closeModal1(modal1) { // eslint-disable-line
   if (modal1 == null) return;
-  modal1.classList.remove('active');
-  overlay.classList.remove('active');
+  modal1.classList.remuve('active');
+  overlay.classList.remuve('active');
 }
 
 openModalButtons.forEach((button) => {
