@@ -2,7 +2,7 @@
  
 > Portfolio is project which highlights and showcases samples of some of best work, learning progress, and academic achievement in software development.
 
-![Personal Portfolio](./image/project.png.png)
+![Personal Portfolio](./image/project.png)
 
 ## Built With
 
