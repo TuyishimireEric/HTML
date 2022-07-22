@@ -1083,7 +1083,7 @@ li:hover {
 
   #photo00 {
     background-image: url("image/chogm11.png");
-    background-size: cover
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
