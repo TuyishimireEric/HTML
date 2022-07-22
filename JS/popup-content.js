@@ -12,13 +12,12 @@ const allContent = [
     languages: ['HTML', 'css', 'javaScript'],
   },
   {
-    name: 'Tonic',
-    work: ['CANOPY', 'Back End Dev', '2015'],
-    content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    At eos qui possimus nisi ducimus delectus enim beatae natus 
-    ab? Natus minima minus similique nisi eos, deleniti laudantium 
-    nihil impedit assumenda! ducimus delectus enim beatae natus 
-    ab? Natus minima minus`,
+    name: 'CHOGM Website',
+    work: ['CHOGM', 'Rwanda', '2022'],
+    content: `The Commonwealth Heads of Government Meeting is a biennial summit 
+    meeting of the de facto leaders from all Commonwealth nations. 
+    Despite the name, the head of state may be present in the meeting 
+    instead of the head of government, especially among semi-presidential states.`,
     languages: ['HTML', 'css', 'javaScript'],
   },
   {
@@ -68,7 +67,9 @@ modal0.insertAdjacentHTML(
                 <li><a href='index.html'>${allContent[0].languages[2]}</a></li>
             </ul>
             <div class='extra-buttons'>  
-            <button class='project'><p>See Live</p><img src='image/sm1.png'></button>
+            
+                <button class='project'><p>See Live</p><img src='image/sm1.png'></button>
+            
             <button class='project'><p>See Source</p><img src='image/sm2.png'></button>
             </div>
         </div>
@@ -102,8 +103,9 @@ modal1.insertAdjacentHTML(
                 <li><a href='index.html'>${allContent[1].languages[2]}</a></li>
             </ul>
             <div class='extra-buttons'> 
-            <button class='project'><p>See Live</p><img src='image/sm1.png'></button>
-            <button class='project'><p>See Source</p><img src='image/sm2.png'></button>
+            <button class='project' onClick="location.href='https://tuyishimireeric.github.io/Capstone-Project-CHOGUM/index.html'"><p>See Live</p><img src='image/sm1.png'>
+            </button>
+            <button class='project' onClick="location.href='https://github.com/TuyishimireEric/Capstone-Project-CHOGUM'"><p>See Source</p><img src='image/sm2.png'></button>
             </div>
         </div>
     </section> 
